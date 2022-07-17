@@ -35,7 +35,6 @@ module.exports = defineConfig({
                 // 向全局sass样式传入共享的全局变量, $src可以配置图片cdn前缀
                 // 详情: https://cli.vuejs.org/guide/css.html#passing-options-to-pre-processor-loaders
                 additionalData: `
-                @import "element-ui/lib/theme-chalk/index.css";
                 @import "~@/styles/element-variables.scss";
                 `,
             },

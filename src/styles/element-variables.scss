@@ -16,7 +16,7 @@ $--color-transition-base: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !defau
 $--color-white: #fff !default;
 $--color-black: #000 !default;
 
-$--color-primary: #101 !default;
+$--color-primary: #f0f !default;
 $--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
 $--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
 $--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
@@ -736,3 +736,5 @@ $--breakpoints-spec: (
         min-width: $--xl,
     ),
 );
+// @import "element-ui/lib/theme-chalk/index.css";
+@import "~element-ui/packages/theme-chalk/src/index";

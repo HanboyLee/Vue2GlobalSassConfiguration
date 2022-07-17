@@ -7,5 +7,13 @@
             }
         ]
     ],
-    "plugins": []
+    "plugins": [
+        [
+            "component",
+            {
+                "libraryName": "element-ui",
+                "styleLibraryName": "~theme"
+            }
+        ]
+    ]
 }
