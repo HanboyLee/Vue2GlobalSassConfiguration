@@ -736,5 +736,12 @@ $--breakpoints-spec: (
         min-width: $--xl,
     ),
 );
-// @import "element-ui/lib/theme-chalk/index.css";
+
+//TODO:樣式穿透
+::v-deep .el-input__inner {
+    border-color: #f00;
+    background: #f0f;
+}
+
+@import "element-ui/lib/theme-chalk/index.css";
 @import "~element-ui/packages/theme-chalk/src/index";
