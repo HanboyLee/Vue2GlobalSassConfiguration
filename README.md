@@ -72,3 +72,16 @@ More info and automated migrator: https://sass-lang.com/d/slash-div
 ```
 "sass": "^1.43.4",    替换为  "sass": "~1.26.5",
 ```
+
+```js
+module.exports = {
+   css: {
+     loaderOptions: {
+        sass: {
+        	prependData:`@import "./src/assets/scss/style.scss";` 
+        	// sass 版本 9 中使用 additionalData 版本 8 中使用 prependData  
+            }
+        }
+    }
+}
+```
